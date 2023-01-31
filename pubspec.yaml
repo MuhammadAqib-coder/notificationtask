@@ -38,6 +38,7 @@ dependencies:
   flutter_local_notifications: ^13.0.0
   http: ^0.13.5
   timezone: ^0.9.1
+  syncfusion_flutter_charts: ^20.4.44
 
 dev_dependencies:
   flutter_lints: ^2.0.0

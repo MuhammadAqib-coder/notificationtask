@@ -164,8 +164,7 @@ class _NotificationViewState extends State<NotificationView> {
   sendPushNotification(token) async {
     try {
       var headers = {
-        'Authorization':
-            'key=AAAAy0SFEI4:APA91bFhDdsXjQYcGiGpnFctDqhRalEs4r1yxtNgxJTHYv4O0phmvjVWyeSE1M6FNQq6Bod6VB2OO-kn4rYbxpvYFOasFgLlKayB4dbuOdStdORHWCMSS9MYhvzKwW9yJvVMyijqAgoG',
+        'Authorization': 'key=',
         'Content-Type': 'application/json'
       };
       var request = http.Request(
